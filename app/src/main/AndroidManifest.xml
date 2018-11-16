@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="xl1712114143.project_final">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="xl1712114143.project_final.phone.PhoneListActivity"
+            android:label="@string/numAssist" >
+        </activity>
+        <activity
+            android:name="xl1712114143.project_final.phone.AddPhoneActivity"
+            android:label="@string/addPhone" >
+        </activity>
+        <activity
+            android:name="xl1712114143.project_final.phone.ResultActivity"
+            android:label="@string/result" >
+        </activity>
+
+        <activity
+            android:name="xl1712114143.project_final.campuslife.CampusLifeActivity"
+            android:label="@string/campuslife">
+        </activity>
+        <activity
+            android:name="xl1712114143.project_final.campuslife.CampusSceneryActivity"
+            android:label="@string/campusScenery">
+        </activity>
+        <activity
+            android:name="xl1712114143.project_final.campuslife.FreshAssistActivity"
+            android:label="@string/freshAssist">
+        </activity>
+        <activity
+            android:name="xl1712114143.project_final.campuslife.DetailInfoActivity"
+            android:label="@string/freshAssist">
+        </activity>
+        <activity
+            android:name="xl1712114143.project_final.campuslife.CampusBuildActivity"
+            android:label="@string/campusBuild" >
+        </activity>
+
+
+        <activity
+            android:name="xl1712114143.project_final.youwanxiamen.SceneryActivity"
+            android:label="@string/scenery">
+        </activity>
+        <activity
+            android:name="xl1712114143.project_final.youwanxiamen.SceneryShowActivity"
+            android:label="@string/scenery_item" >
+        </activity>
+
+
+        <activity
+            android:name="xl1712114143.project_final.chuxingxinxi.ChuxingxinxiActivity"
+            android:label="@string/trafficAssist" >
+        </activity>
+        <activity
+            android:name="xl1712114143.project_final.chuxingxinxi.WozainaActivity"
+            android:label="@string/wozaina" >
+        </activity>
+        <activity
+            android:name="xl1712114143.project_final.chuxingxinxi.GongjiaoluxianActivity"
+            android:label="@string/xianluchaxun" >
+        </activity>
+        <activity
+            android:name="xl1712114143.project_final.chuxingxinxi.GuanjiandianActivity"
+            android:label="@string/guanjiandian" >
+        </activity>
+
+        <!--百度key
+            <meta-data-->
+            <!--android:name="com.baidu.lbsapi.API_KEY"-->
+            <!--android:value="XXX" />-->
+
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+</manifest>

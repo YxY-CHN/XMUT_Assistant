@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingLeft="10dp"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/addPhone"
+        android:textSize="24sp"
+        android:textColor="#000000"/>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"/>
+        <EditText
+            android:id="@+id/name"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="@string/phone" />
+        <EditText
+            android:inputType="phone"
+            android:id="@+id/phone"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="@string/type"/>
+        <EditText
+            android:id="@+id/type"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="@string/keyword"/>
+        <EditText
+            android:id="@+id/keyword"/>
+    </TableRow>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"/>
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reset"/>
+    </LinearLayout>
+
+</TableLayout>

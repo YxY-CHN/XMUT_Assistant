@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:background="@drawable/xinshengzhinan"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/zhengli"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_margin="0dp"
+        android:background="@drawable/touming"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:padding="0dp"
+        android:text="@string/zhengli"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/dida"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_margin="0dp"
+
+        android:padding="0dp"
+        android:background="@drawable/touming"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:text="@string/dida"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/ruxiao"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_margin="0dp"
+
+        android:padding="0dp"
+        android:background="@drawable/touming"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:text="@string/ruxiao"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/woshi"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_margin="0dp"
+
+        android:padding="0dp"
+        android:background="@drawable/touming"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:text="@string/woshi"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/shenghuo"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_margin="0dp"
+
+        android:padding="0dp"
+        android:background="@drawable/touming"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:text="@string/shenghuo"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/jiejiao"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_margin="0dp"
+
+        android:padding="0dp"
+        android:background="@drawable/touming"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:text="@string/jiejiao"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/qinlian"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_margin="0dp"
+
+        android:padding="0dp"
+        android:background="@drawable/touming"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:text="@string/qinlian"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/xuezhang"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+        android:background="@drawable/touming"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:text="@string/xuezhang"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/goBack"
+        android:layout_width="wrap_content"
+        android:padding="60dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/touming"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="@string/goBack"/>
+
+</LinearLayout>

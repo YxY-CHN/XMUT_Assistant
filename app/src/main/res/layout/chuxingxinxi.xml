@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/chuxingxinxi"
+    android:paddingRight="20dp"
+    android:gravity="right|center_vertical">
+
+    <Button
+        android:id="@+id/xianluchaxun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/xianluchaxun"
+        android:textSize="24sp"
+        android:background="#0033FF00"/>
+
+    <Button
+        android:id="@+id/wozaina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/wozaina"
+        android:textSize="24sp"
+        android:background="#0000FFAA"/>
+
+    <Button
+        android:id="@+id/guanjiandian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/guanjiandian"
+        android:textSize="24sp"
+        android:background="#00FBF700"/>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/goBack"
+        android:textSize="24sp"
+        android:background="#00FF75CF"/>
+
+</LinearLayout>

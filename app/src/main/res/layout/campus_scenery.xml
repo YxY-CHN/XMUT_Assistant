@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/campus_life_bg"
+    android:gravity="center_horizontal">
+
+    <ImageSwitcher
+        android:id="@+id/switcher2"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    <Gallery
+        android:id="@+id/gallery"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:spacing="3pt" 
+        android:unselectedAlpha="0.5"
+        android:layout_marginTop="20dp"/>
+    
+    <Button
+        android:id="@+id/goBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/touming"
+        android:textStyle="bold"
+        android:text="@string/goBack"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
